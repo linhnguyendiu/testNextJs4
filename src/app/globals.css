@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-white
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        @apply text-black;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: rgba(255, 255, 255, 1);
+    --button-bg: rgba(255, 70, 159, 1);
+    --button-hover: #EDC14A;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+h1 {
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 133.333% */
+    letter-spacing: -2px;
+    padding: 32px 0 0;
+
+}
+
+h2 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 133.333% */
+    letter-spacing: -2px;
+}
+
+h3 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 133.333% */
+    letter-spacing: -2px;
+}
+
+.link {
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: #8d5ee4;
+    align-items: center;
+    line-height: 1.75;
+    letter-spacing: 0em;
+}
+
+.ql-container {
+    font-size: 28px !important;
+}
+
+.quill>.ql-container>.ql-editor.ql-blank::before {
+    color: #b3b3b1;
+}
+
+:root {
+    --bold-16-font-family: "Montserrat-SemiBold", Helvetica;
+    --bold-16-font-size: 16px;
+    --bold-16-font-style: normal;
+    --bold-16-font-weight: 600;
+    --bold-16-letter-spacing: 1px;
+    --bold-16-line-height: 24px;
+    --bold-22-font-family: "Montserrat-Bold", Helvetica;
+    --bold-22-font-size: 22px;
+    --bold-22-font-style: normal;
+    --bold-22-font-weight: 700;
+    --bold-22-letter-spacing: 0.22px;
+    --bold-22-line-height: 160.0000023841858%;
+    --display-1-font-family: "Montserrat-Bold", Helvetica;
+    --display-1-font-size: 64px;
+    --display-1-font-style: normal;
+    --display-1-font-weight: 700;
+    --display-1-letter-spacing: 0px;
+    --display-1-line-height: 139.9999976158142%;
+    --head-para-font-family: "Montserrat-Medium", Helvetica;
+    --head-para-font-size: 24px;
+    --head-para-font-style: normal;
+    --head-para-font-weight: 500;
+    --head-para-letter-spacing: 0.10000000149011612px;
+    --head-para-line-height: 32px;
+    --heading-1-font-family: "Montserrat-Bold", Helvetica;
+    --heading-1-font-size: 54px;
+    --heading-1-font-style: normal;
+    --heading-1-font-weight: 700;
+    --heading-1-letter-spacing: 0px;
+    --heading-1-line-height: 139.9999976158142%;
+    --heading-2-font-family: "Montserrat-SemiBold", Helvetica;
+    --heading-2-font-size: 42px;
+    --heading-2-font-style: normal;
+    --heading-2-font-weight: 600;
+    --heading-2-letter-spacing: 0px;
+    --heading-2-line-height: 139.9999976158142%;
+    --heading-3-font-family: "Montserrat-SemiBold", Helvetica;
+    --heading-3-font-size: 36px;
+    --heading-3-font-style: normal;
+    --heading-3-font-weight: 600;
+    --heading-3-letter-spacing: 0px;
+    --heading-3-line-height: 139.9999976158142%;
+    --heading-4-font-family: "Montserrat-Bold", Helvetica;
+    --heading-4-font-size: 24px;
+    --heading-4-font-style: normal;
+    --heading-4-font-weight: 700;
+    --heading-4-letter-spacing: 0px;
+    --heading-4-line-height: 139.9999976158142%;
+    --heading-5-font-family: "Montserrat-Bold", Helvetica;
+    --heading-5-font-size: 20px;
+    --heading-5-font-style: normal;
+    --heading-5-font-weight: 700;
+    --heading-5-letter-spacing: 0px;
+    --heading-5-line-height: 139.9999976158142%;
+    --inner-shadow: ;
+    --medium-22-font-family: "Montserrat-Medium", Helvetica;
+    --medium-22-font-size: 22px;
+    --medium-22-font-style: normal;
+    --medium-22-font-weight: 500;
+    --medium-22-letter-spacing: 1px;
+    --medium-22-line-height: 24px;
+    --neutrallightwhite: rgba(255, 255, 255, 1);
+    --paragraph-16-font-family: "Montserrat-Regular", Helvetica;
+    --paragraph-16-font-size: 16px;
+    --paragraph-16-font-style: normal;
+    --paragraph-16-font-weight: 400;
+    --paragraph-16-letter-spacing: 1px;
+    --paragraph-16-line-height: 24px;
+    --paragraph-22-font-family: "Montserrat-Regular", Helvetica;
+    --paragraph-22-font-size: 22px;
+    --paragraph-22-font-style: normal;
+    --paragraph-22-font-weight: 400;
+    --paragraph-22-letter-spacing: 1px;
+    --paragraph-22-line-height: 24px;
+    --paragraph-32-font-family: "Montserrat-Regular", Helvetica;
+    --paragraph-32-font-size: 28px;
+    --paragraph-32-font-style: normal;
+    --paragraph-32-font-weight: 400;
+    --paragraph-32-letter-spacing: 1px;
+    --paragraph-32-line-height: 24px;
+    --paragraph-big-font-family: "Montserrat-Medium", Helvetica;
+    --paragraph-big-font-size: 36px;
+    --paragraph-big-font-style: normal;
+    --paragraph-big-font-weight: 500;
+    --paragraph-big-letter-spacing: 0px;
+    --paragraph-big-line-height: 139.9999976158142%;
+    --paragraph-large-font-family: "Montserrat-Regular", Helvetica;
+    --paragraph-large-font-size: 22px;
+    --paragraph-large-font-style: normal;
+    --paragraph-large-font-weight: 400;
+    --paragraph-large-letter-spacing: 0px;
+    --paragraph-large-line-height: 139.9999976158142%;
+    --primaryhot-pinkbase: rgba(255, 70, 159, 1);
+    --variable-collection-black: rgba(62, 51, 58, 1);
+    --variable-collection-blue5: rgba(36, 137, 211, 1);
+    --variable-collection-gray1: rgba(75, 68, 77, 1);
+    --variable-collection-gray2: rgba(97, 90, 99, 1);
+    --variable-collection-gray3: rgba(128, 122, 130, 1);
+    --variable-collection-gray4: rgba(188, 183, 189, 1);
+    --variable-collection-gray5: rgba(224, 224, 224, 1);
+    --variable-collection-gray6: rgba(242, 239, 242, 1);
+    --variable-collection-pink-1: rgba(248, 238, 244, 1);
+    --variable-collection-pink-6: rgba(248, 35, 137, 1);
+    --variable-collection-pink0: rgba(255, 208, 236, 1);
+    --variable-collection-pink1: rgba(239, 110, 188, 1);
+    --variable-collection-pink4: rgba(255, 70, 159, 1);
+    --variable-collection-pink5: rgba(255, 70, 159, 1);
+    --variable-collection-purple6: rgba(162, 45, 183, 1);
+    --variable-collection-white: rgba(255, 255, 255, 1);
+    --variable-collection-yellow1: rgba(240, 201, 50, 1);
+}

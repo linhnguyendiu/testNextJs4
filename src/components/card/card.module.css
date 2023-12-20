@@ -1,0 +1,30 @@
+.textContainer {
+    padding: 25px 32px;
+    flex: 1;
+    display: flex;
+    gap: 30px;
+
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    max-width: 450px;
+}
+
+.textContainer:hover {
+    background: var(--Light-yellow, #FBF6EA);
+}
+
+
+@media screen and (max-width: 1280px) {
+    .imageContainer {
+        display: none;
+    }
+
+    .courseTitle {
+        width: 100%;
+    }
+}
