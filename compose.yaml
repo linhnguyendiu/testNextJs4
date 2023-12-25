@@ -1,0 +1,6 @@
+services:
+  app:
+    image: next
+    volumes:
+      - ./public/images:/app/public/images
+    restart: unless-stopped
